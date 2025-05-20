@@ -14,6 +14,11 @@ go run cmd/main.go
 | /revenue/by-category | GET | start, end (YYYY-MM-DD) | Total revenue grouped by category |
 | /revenue/by-region | GET | start, end (YYYY-MM-DD) | Total revenue grouped by region |
 
+example of Request url
+```bash
+http://localhost:8080/revenue?start=2023-12-01&end=2024-06-01
+```
+
 
 ## Notes
 - DB file: `sales.db`
